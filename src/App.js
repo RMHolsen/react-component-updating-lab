@@ -11,6 +11,7 @@ class App extends Component {
     timerIDs: []
   }
 
+  // calls a method from below to add a timer every time the component is rendered? I think.
   componentDidMount() {
     this.handleAddTimer()
   }
